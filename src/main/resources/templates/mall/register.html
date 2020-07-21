@@ -69,7 +69,7 @@
     function register() {
         var loginName = $("#loginName").val();
         if (!validPhoneNumber(loginName)) {
-            swal('请输入正确的登录名(即手机号)', {
+            swal('请输入正确的登录名(即手机号)', {  //sweetalert
                 icon: "error",
             });
             return false;

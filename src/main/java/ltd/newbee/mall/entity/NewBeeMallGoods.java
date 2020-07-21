@@ -7,6 +7,9 @@
  * 版权所有，侵权必究！
  */
 package ltd.newbee.mall.entity;
+/**
+ * 商品
+ */
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 

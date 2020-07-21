@@ -11,7 +11,10 @@ package ltd.newbee.mall.entity;
 import com.fasterxml.jackson.annotation.JsonFormat;
 
 import java.util.Date;
-
+/**
+ * 商品种类
+ *
+ * */
 public class GoodsCategory {
     private Long categoryId;
 
@@ -26,6 +29,7 @@ public class GoodsCategory {
     private Byte isDeleted;
 
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
+    //@JsonFormat时间格式化注解
     private Date createTime;
 
     private Integer createUser;

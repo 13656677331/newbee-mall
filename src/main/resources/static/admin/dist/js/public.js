@@ -20,7 +20,7 @@ function isNull(obj) {
  * @returns {boolean}
  */
 function validLength(obj, length) {
-    if (obj.trim().length < length) {
+    if (obj.trim().length < length) {    //移除的字符包括空格、制表符、换页符、回车符和换行符。有关空格和行终止符的完整列表
         return true;
     }
     return false;

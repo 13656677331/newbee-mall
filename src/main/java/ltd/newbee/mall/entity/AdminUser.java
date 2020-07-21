@@ -8,6 +8,9 @@
  */
 package ltd.newbee.mall.entity;
 
+/**
+ * 管理员
+ */
 public class AdminUser {
     private Integer adminUserId;
 

@@ -16,7 +16,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * 后台系统身份验证拦截器
+ * 后台系统身份验证拦截器(过滤器)
  *
  * @author 13
  * @qq交流群 796794009
